@@ -1,44 +1,54 @@
-- name: Add Docker Group
-  group: name=docker state=present
+- hosts: localhost
+  become: yes
+  tasks:
+   - name: Install aptitude using apt
+     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
 
-- name: Add Docker Signing Key
-  apt_key:
-    keyserver: 'hkp://p80.pool.sks-keyservers.net:80'
-    id: 58118E89F3A912897C070ADBF76221572C52609D
-    state: present
+   - name: Install required system packages
+     apt: name={{ item }} state=latest update_cache=yes
+     loop: [ 'apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common', 'python3-pip', 'virtualenv', 'python3-setuptools']
 
-- name: Add Docker Repo
-  apt_repository:
-    repo: 'deb https://apt.dockerproject.org/repo debian-jessie main'
-    filename: 'docker.list'
+   - name: Add Docker GPG apt Key
+     apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+ 
+   - name: Add Docker Repository
+     apt_repository:
+      repo: deb https://download.docker.com/linux/ubuntu bionic stable
+      state: present
 
-- name: Install Docker
-  apt: name=docker-engine state=present
-
-- name: Install docker-py
-  pip: name=docker-py version=1.9.0
-
+   - name: Update apt and install docker-ce
+     apt: update_cache=yes name=docker-ce state=latest
+ 
+   - name: install certain python modules for docker
+     pip:
+       name: "{{ item.name }}"
+       version: "{{ item.version }}"
+       state: present
+     with_items:
+      - { name: docker, version: 2.7.0 }
 ## install jenkins
 
-- name: Ensure jenkins directory on docker host
-  file:
-    state: directory
-    owner: 1000
-    group: 1000
-    path: /data/jenkins
+   - name: Ensure jenkins directory on docker host
+     file:
+       state: directory
+       owner: 1000
+       group: 1000
+       path: /data/jenkins
 
-- name: Pull the latest official jenkins docker image
-  docker_image:
-    name: "jenkins:latest"
-
-- name: Create a container from the jenkins docker image
-  docker_container:
-    name: "jenkins-server"
-    image: "jenkins"
-    ports:
-        - "8080:8080"
-        - "50000:50000"
-    volumes:
-        - "/data/jenkins:/var/jenkins_home"
-    state: present
-    recreate: no
+   - name: Pull the latest official jenkins docker image
+     docker_image:
+       name: "jenkins/jenkins:lts-jdk11"
+       source: pull
+   - name: Create a container from the jenkins docker image
+     docker_container:
+       name: "jenkins-server"
+       image: "jenkins/jenkins:lts-jdk11"
+       ports:
+          - "8080:8080"
+          - "50000:50000"
+       volumes:
+           - "/data/jenkins:/var/jenkins_home"
+       state: started
+       recreate: no
