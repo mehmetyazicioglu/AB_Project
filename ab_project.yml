@@ -39,16 +39,19 @@
 
    - name: Pull the latest official jenkins docker image
      docker_image:
-       name: "jenkins/jenkins:lts-jdk11"
+       name: "mehmetyazicioglu/jenkins_ab_project:1.1"
        source: pull
    - name: Create a container from the jenkins docker image
      docker_container:
        name: "jenkins-server"
-       image: "jenkins/jenkins:lts-jdk11"
+       image: "mehmetyazicioglu/jenkins_ab_project:1.1"
        ports:
           - "8080:8080"
           - "50000:50000"
        volumes:
-           - "/data/jenkins:/var/jenkins_home"
+          - "/data/jenkins:/var/jenkins_home"
+       env:
+          JENKINS_ADMIN_ID: "{{ admin_id }}"
+          JENKINS_ADMIN_PASSWORD: "{{ password }}"
        state: started
        recreate: no
