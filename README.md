@@ -4,6 +4,7 @@ first of all, we need to build our on Jenkins docker image in order to skip init
 
 
 cd jenkins
+
 docker build -T {{ any name you want to use }}
 
 
