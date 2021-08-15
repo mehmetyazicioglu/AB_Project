@@ -36,15 +36,22 @@
        owner: 1000
        group: 1000
        path: /data/jenkins
+   
+   - name: Ensure copy casc file on the docker volume
+     ansible.builtin.copy:            
+       src: jenkins/casc.yaml
+       dest: /data/jenkins/casc.yaml
+       owner: 1000
+       group: 1000
 
-   - name: Pull the latest official jenkins docker image
-     docker_image:
-       name: "mehmetyazicioglu/jenkins_ab_project:1.1"
-       source: pull
+       #   - name: Pull the latest official jenkins docker image
+       # docker_image:
+       #name: "mehmetyazicioglu/jenkins_ab_project:1.2"
+       #source: pull
    - name: Create a container from the jenkins docker image
      docker_container:
        name: "jenkins-server"
-       image: "mehmetyazicioglu/jenkins_ab_project:1.1"
+       image: "mehmetyazicioglu/jenkins_ab_project:1.2"
        ports:
           - "8080:8080"
           - "50000:50000"

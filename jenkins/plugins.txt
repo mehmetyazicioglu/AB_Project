@@ -20,4 +20,6 @@ workflow-aggregator:latest
 ws-cleanup:latest
 maven-plugin:latest
 authorize-project:latest
-
+aqua-security-scanner:3.0.25
+blueocean:1.24.8
+performance:3.20
