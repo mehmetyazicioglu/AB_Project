@@ -57,6 +57,7 @@
           - "50000:50000"
        volumes:
           - "/data/jenkins:/var/jenkins_home"
+          - "/var/run/docker.sock:/var/run/docker.sock"
        env:
           JENKINS_ADMIN_ID: "{{ admin_id }}"
           JENKINS_ADMIN_PASSWORD: "{{ password }}"
