@@ -23,3 +23,8 @@ authorize-project:latest
 aqua-security-scanner:3.0.25
 blueocean:1.24.8
 performance:3.20
+docker-workflow:1.26
+docker-commons:1.17
+pipeline-model-definition:1.9.1
+workflow-cps:2.93
+aqua-microscanner:1.0.8
