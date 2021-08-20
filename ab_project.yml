@@ -28,14 +28,25 @@
        state: present
      with_items:
       - { name: docker, version: 2.7.0 }
-## install jenkins
 
-   - name: Ensure jenkins directory on docker host
+   - name: Install docker-compose
+     remote_user: ubuntu
+     get_url: 
+       url : https://github.com/docker/compose/releases/download/1.25.1-rc1/docker-compose-Linux-x86_64
+       dest: /usr/local/bin/docker-compose
+       mode: 'u+x,g+x'
+        
+  ## install jenkins
+   - name: Ensure jenkins and ELK  directory on docker host
      file:
+       path: "{{ item }}"
        state: directory
        owner: 1000
        group: 1000
-       path: /data/jenkins
+     loop:
+       - /data/jenkins
+       - /data/elk
+
    
    - name: Ensure copy casc file on the docker volume
      ansible.builtin.copy:            
