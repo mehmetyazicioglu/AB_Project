@@ -16,6 +16,7 @@ RUN apt-get update -qq && \
     apt-get install -qqy docker-ce && \
     usermod -aG docker jenkins && \
     apt-get -y install docker-compose && \
+    apt install gnupg2 pass && \
     chown -R jenkins:jenkins $JENKINS_HOME/
 USER jenkins
 
