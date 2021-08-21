@@ -15,7 +15,7 @@ RUN apt-get update -qq && \
     apt-get update -qq && \
     apt-get install -qqy docker-ce && \
     usermod -aG docker jenkins && \
+    apt-get -y install docker-compose && \
     chown -R jenkins:jenkins $JENKINS_HOME/
-
 USER jenkins
 
