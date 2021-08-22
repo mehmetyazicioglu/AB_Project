@@ -2,7 +2,7 @@
 AB Project
 first of all, we need to build our on Jenkins docker image in order to skip initial setup manually and enable secure jenkins to user login to Jenkins. it also setup initial configuration and neccassary plugins for our project.
 
-we need to checkout our proect to our localhost and go to repository.
+we need to clone our AB_Project to our localhost and go to repository.
 
 cd jenkins
 
