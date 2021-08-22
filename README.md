@@ -12,3 +12,6 @@ In order to run jenkins server as docker container, we need to install neccassar
 
 ansible-playbook  ab_project.yml  --ask-become-pass --extra-vars "admin_id={{ user_name }}  password= {{ password }}"
 
+
+![alt text](https://github.com/mehmetyazicioglu/AB_Project/blob/main/ab_project.png)
+
