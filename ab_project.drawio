@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2021-08-22T16:50:02.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="AZHpL4XCe3nyHXabtu-Z" version="14.9.8" type="github"><diagram id="Siw_TYlSQqhXZrjCrece" name="Page-1">7Vlbb6M4FP41eWwEBhLy2Ny2o+1KlWak7TyNDDjgKcGRbdqkv36PwYSLSZOZkql2dvMSfHw/3zmfP8PIWWz3f3C8S/5iEUlHyIr2I2c5Qsh20QT+lOVQWqYztzTEnEa6UW34TF+JNlramtOIiFZDyVgq6a5tDFmWkVC2bJhz9tJutmFpe9Ydjolh+Bzi1LT+TSOZlFYfTWv7HaFxUs1sT2ZlzRZXjfVORIIj9tIwOauRs+CMyfJpu1+QVDmv8kvZb32i9rgwTjJ5SYevd48+f71PxHoefFl88h5nk8cb5JTDPOM01zvWq5WHygWc5VlE1Cj2yJm/JFSSzzscqtoXAB1sidymuloPR7gk+5MLtY/bh7ghbEskP0AT3eGI/aEKIl1+qQGYVG2ShvORpY1Ygx4fx679Ag/aNT/gJsdwCokgTHSRcZmwmGU4XdXWee02C0p1m3vGdtpZ34mUBx3zOJes7UpwFz88qv5j26/KX4uyeywv93qCsnRolh4Ip7B/wrWx3IRa+dvIwEZZzkPyhkOqVMQ8JvKt+OpHmpMUS/rcXsfgqNm2EdwPuUgKtohIL6T3OAACa8GAUxpn8ByCk5Qr5yq4KTDEra7Y0igqESeCvuKgGE/5e8doJotNefORt3wrOzR96c41aTSxOR2ZJ1Ppxhqjiee30qnC7mIM9OgPajeNJmyzEYB9F6TjIt6B23lOauATYZEc06xgJ9Fmpw1N0wVLGS+6OsifeivY1VxIzp5Io2ZT/Azg5tbYsrwRWljjiaP+FJZoUVTYhRl1rLNeazFEt+XsxMDTojfU9wxid2zI77QtYg3Om53ywnYfq6N5/JQHhGdAB2JMIdzUNvmn4mGZCwjs9xO30+ZtZPkGb3s9tO36V8p/z4ijL5zGMeECrEFOQQp8KK23Od07Q+kDsje6kL3dd7J3hzmqMOnGieO0hyjXpXsNTy/oPL1UFF8cBw9MUEmLRAmYlGzbxrN7HEgVB+ap0WabjGXEpCbLmq/WqCd38WvOyTimMsmDb8XhpUmK8NUzKblqIPVlez+Xxd61tFel9H5tlg6Ybe6F2eZ/qFYys0JrJbqFO474PdSSbfX7uCGXPM8ZVC7poWe9g15fS7nnya4imwLoS7jtLDumqmKOw6e4yMM+iVVMdit25Z1d4Y+rwobuVebO9XqWiZTqsn+rfIPWYZS5hYDZUMhwPg5hRrSOsMTwp+wQqusUsl3cBBxnkVAyYI3AD+vvJHuimYBY98e7LB6ALNHM7pBlz1W1hywnVyPLD7mpDkiW/oVkaV9Hm3izrjZBF2mTW87xodFMk9npeVC/Blr/XHt4KFcw7D1sapBHQ0Cv7v/8TQ6Fs3do23ad950C1yd638BqycInda+z7vLAQMpg2wZcptMNAKuzYsMyqWnBRg3OpttY0TAN1F5EiAn8l+sZi+d4GKXquu0XG8hGY8+g394b59VU1MxAQZYZUyUMrGaSwjLmAZgmsSxuBnBS/stp275U5NonVG6dbNbxFfo7uXx6gjPPcfkvfdX1vz67pj7z/O5l1vlgfWbS9H8Xb0hvAQsXBPMwGRD1qdv5gDSbGqhPkYl6ZRscdWRm+QNnz1QATuBaZAVq9beZoEq8dOMBHCGvp6fUsSD0CX7qNdUAmEw6r5VsZN6Ujh/62h/1fhgUKNafVUumrj9OO6t/AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-22T16:52:49.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mrSH9Rq-tUi-rMN5lL4L" version="14.9.8" type="github">
+  <diagram id="Siw_TYlSQqhXZrjCrece" name="Page-1">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="140" width="610" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.18;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YHX8rzLhsFBbTCI5X96X-1" target="YHX8rzLhsFBbTCI5X96X-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-11" value="Push code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YHX8rzLhsFBbTCI5X96X-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2658" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-1" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=user" parent="1" vertex="1">
+          <mxGeometry x="30" y="208" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-5" value="Triggers build" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YHX8rzLhsFBbTCI5X96X-2" target="YHX8rzLhsFBbTCI5X96X-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="208" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YHX8rzLhsFBbTCI5X96X-4" target="YHX8rzLhsFBbTCI5X96X-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-12" value="Push images" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YHX8rzLhsFBbTCI5X96X-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.2553" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png" parent="1" vertex="1">
+          <mxGeometry x="291" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YHX8rzLhsFBbTCI5X96X-8" target="YHX8rzLhsFBbTCI5X96X-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="232" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="233" />
+              <mxPoint x="520" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-17" value="Triggers ELK&lt;br&gt;build job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YHX8rzLhsFBbTCI5X96X-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-8" value="Docker Hub" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
+          <mxGeometry x="448" y="212.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-19" value="trigger ELK &lt;br&gt;stack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YHX8rzLhsFBbTCI5X96X-14" target="YHX8rzLhsFBbTCI5X96X-18" edge="1">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="720" y="233" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png" parent="1" vertex="1">
+          <mxGeometry x="580" y="203" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/elasticsearch-128.png" parent="1" vertex="1">
+          <mxGeometry x="740" y="197" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="YHX8rzLhsFBbTCI5X96X-24" value="Provisioned by Ansible" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="650" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
