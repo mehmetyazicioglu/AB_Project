@@ -23,8 +23,11 @@ ansible-playbook  ab_project.yml  --ask-become-pass --extra-vars "admin_id={{ us
 After setting up jenkins as a container in local environment. it is time to build metricbeat, elasticsearch, kibana and logstash custom docker images.
 
 1- Elasticsearch repo --> https://github.com/mehmetyazicioglu/elasticsearch
+
 2- Kibana repo --> https://github.com/mehmetyazicioglu/kibana
+
 3- Logstash repo --> https://github.com/mehmetyazicioglu/logstash
+
 4- Metric repo --> https://github.com/mehmetyazicioglu/metricbeat
 
 Images are pushed to docker hub 
