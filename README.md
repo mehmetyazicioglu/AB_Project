@@ -43,7 +43,9 @@ after images successfully built by jenkins job, all subjected jobs are automatic
 ELK stack repo --> https://github.com/mehmetyazicioglu/ELK_stack
 
 
-sample app jenkins pipeline repository is on --> https://github.com/mehmetyazicioglu/testing-jenkins-docker
+sample app jenkins pipeline repository is on --> https://github.com/mehmetyazicioglu/sample-app-pipeline
+which has all pipeline stages such as 
+Checkout SCM --> Tool Install --> Build --> Testing	Unit Tests --> Functional Tests -->	Integration Tests -->	Deploy
 
 
 ![alt text](https://github.com/mehmetyazicioglu/AB_Project/blob/main/ab_project.png)
