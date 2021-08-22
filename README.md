@@ -38,6 +38,8 @@ https://hub.docker.com/repository/docker/mehmetyazicioglu/elasticsearch
 https://hub.docker.com/repository/docker/mehmetyazicioglu/metricbeat
 
 after images successfully built by jenkins job, all subjected jobs are automatically triggers to ELK_STACK job to run ELK components in together. 
+
+
 ELK stack repo --> https://github.com/mehmetyazicioglu/ELK_stack
 
 
