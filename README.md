@@ -30,7 +30,8 @@ After setting up jenkins as a container in local environment. it is time to buil
 
 4- Metric repo --> https://github.com/mehmetyazicioglu/metricbeat
 
-Images are pushed to docker hub 
+Images are pushed to docker hub:
+
 https://hub.docker.com/r/mehmetyazicioglu/kibana
 https://hub.docker.com/repository/docker/mehmetyazicioglu/logstash
 https://hub.docker.com/repository/docker/mehmetyazicioglu/elasticsearch
